@@ -50,7 +50,7 @@ class Main extends Component {
                 <tr key={key}>
                   <th scope="row">{product.id.toString()}</th>
                   <td>{product.name}</td>
-                  <td>{window.web3.utils.fromWei(product.price.toString(), 'Ether')} Eth</td>
+                  <td>{window.web3.utils.fromWei(product.price.toString(), 'Ether')} ONE</td>
                   <td>{product.owner}</td>
                   <td>
                     { !product.purchased
